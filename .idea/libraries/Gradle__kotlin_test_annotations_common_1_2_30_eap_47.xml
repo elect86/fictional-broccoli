@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: kotlin-test-annotations-common-1.2.30-eap-47" type="kotlin.common">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-annotations-common/1.2.30-eap-47/5b5e7ff35e3735353ef695b7787b5ae8c843e06d/kotlin-test-annotations-common-1.2.30-eap-47.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-annotations-common/1.2.30-eap-47/b07b25ec6dde7fbfc704f12595d1dce7e19f214a/kotlin-test-annotations-common-1.2.30-eap-47-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

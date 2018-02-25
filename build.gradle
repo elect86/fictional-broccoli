@@ -1,0 +1,32 @@
+allprojects {
+
+    buildscript {
+        ext.kotlin_version = '1.2.30-eap-47'
+        ext.serialization_version = '0.2'
+        ext.anko_version = '0.10.1'
+
+        repositories {
+            maven { setUrl('http://dl.bintray.com/kotlin/kotlin-eap') }
+            maven { setUrl("https://kotlin.bintray.com/kotlinx") }
+            google()
+            jcenter()
+        }
+        dependencies {
+            classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+            classpath "org.jetbrains.kotlinx:kotlinx-gradle-serialization-plugin:$serialization_version"
+        }
+    }
+
+    repositories {
+        maven { setUrl('http://dl.bintray.com/kotlin/kotlin-eap') }
+        maven { setUrl("https://kotlin.bintray.com/kotlinx") }
+        google()
+        jcenter()
+    }
+
+//    dependencies {
+//        compile "org.jetbrains.kotlin:kotlin-stdlib-common:$kotlin_version"
+//    testCompile "org.jetbrains.kotlin:kotlin-test-annotations-common:$kotlin_version"
+//    testCompile "org.jetbrains.kotlin:kotlin-test-common:$kotlin_version"
+//    }
+}

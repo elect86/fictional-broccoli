@@ -1,0 +1,6 @@
+include ':myapplication'
+rootProject.name = 'fictional-broccoli'
+
+include 'common', 'android', 'android:app'
+include 'common-jvm'
+
